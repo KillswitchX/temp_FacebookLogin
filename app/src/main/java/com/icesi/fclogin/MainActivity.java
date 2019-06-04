@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setReadPermissions(Arrays.asList(EMAIL, "public_profile"));
 
         callbackManager = CallbackManager.Factory.create();
+        //
 
 
         LoginManager.getInstance().registerCallback(callbackManager,
